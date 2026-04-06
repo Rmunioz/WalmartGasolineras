@@ -10,7 +10,6 @@ Se leen los datos de las siguientes rutas:
 Se hace la transformación necesaria de esta información para cumplir con los requisitos necesarios que se piden en el caso de uso.
 Se hace la carga de esta información en base de datos (sqlite3)
 
-
 # Lenguajes usados:
 - Frontend: Javascript (React)
 - Backend: Python
@@ -31,10 +30,10 @@ Se hace la carga de esta información en base de datos (sqlite3)
 - En mac sqlite3 ya viene preinstalado, de usar otro S.O instalar sqlite3
 
 # Comandos para levantar el proyecto
-- En la carpeta backend: python3 main.py
-- En la carpeta frontend: npm run dev
+- En la carpeta backend: python3 main.py (levanta en el puerto: 4000)
+- En la carpeta frontend: npm run dev (levanta en el puerto: 5173)
 
 # GITHUB
-- https://chatgpt.com/c/69d3e700-7e94-83e8-923e-e60b4b745615
+- https://github.com/Rmunioz/WalmartGasolineras
 
 

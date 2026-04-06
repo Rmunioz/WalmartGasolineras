@@ -73,6 +73,8 @@ def get_states_saturation():
 @app.route('/api/stations', methods=['GET', 'OPTIONS'])
 def get_stations():
     try:
+
+        #OFFSET VARIABLE PARA PAGINACIÓN Y NO SOBRECARGAR EL SERVIDOR
         limit = int(request.args.get("limit", 200))
         offset = int(request.args.get("offset", 0))
         if limit < 1:
