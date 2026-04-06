@@ -22,6 +22,10 @@ Se hace la carga de esta información en base de datos (sqlite3)
 - geopandas
 - react-leaflet
 
+## Base de datos
+
+El archivo `walmart.db` contiene la base de datos SQLite con datos precargados.
+Puede ser utilizado directamente sin configuración adicional.
 
 # Requerimientos para levantar este proyecto.
 - Python 3.9.6
